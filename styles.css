@@ -1,0 +1,61 @@
+/* Reset básico para remover estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte legível */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo */
+}
+
+/* Cabeçalho */
+header {
+    background: #007bff; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 1rem 0; /* Espaçamento */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    display: inline; /* Itens do menu na mesma linha */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto do link */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+    nav ul li {
+        display: block; /* Itens do menu em linhas separadas */
+        margin-bottom: 10px;
+    }
+}
